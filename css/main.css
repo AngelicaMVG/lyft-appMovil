@@ -62,3 +62,31 @@ body , html{
 }
 
 /*seccion Sign Up*/
+span{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.signUp {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1%;
+}
+
+.form-sign {
+  margin-left: 2%;
+}
+
+.input-sign {
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-left: 2%;
+  padding: 0 2%;
+}
+
+.input-field .input-borde{
+  border: none;
+}
+
+.btnNextSignUp {
+  width: 100%;
+}
