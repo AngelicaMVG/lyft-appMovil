@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/main.css">
@@ -27,7 +28,26 @@
           <a href="../views/signUp.html" class="waves-effect  btn-large btnNextSignUp btn">Next</a>
         </div>
     </div>
+    <div class="row input-tel">
+    <form class="col s12">
+      <div class="input-field col s2">
+        <select class="banderas">
+          <option value="1" class="idioma">🇪🇸</option>
+          <option value="2" class="idioma">🇺🇸</option>
+          <option value="3" class="idioma">🇫🇷</option>
+          <option value="4" class="idioma">🇩🇪</option>
+        </select>
+    </div>
+        <div class="input-field col s10">
+          <input id="icon_telephone" type="tel" class="validate input-borde" value="+55">
+        </div>
+    </form>
+  </div>
+  <p class="center-align">We'll send you a text to verify your phone.</p>
   </section>
 
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="../js/materialize.min.js"></script>
+  <script src="../js/signUp.js"></script>
 </body>
 </html>
